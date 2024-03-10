@@ -12,3 +12,18 @@ C:\Users\aleshkin\My projects\VSCode_Project\MyConsoleApp\obj\Debug\net6.0\refin
 C:\Users\aleshkin\My projects\VSCode_Project\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.pdb
 C:\Users\aleshkin\My projects\VSCode_Project\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.genruntimeconfig.cache
 C:\Users\aleshkin\My projects\VSCode_Project\MyConsoleApp\obj\Debug\net6.0\ref\MyConsoleApp.dll
+D:\Git\Test\MyConsoleApp\bin\Debug\net6.0\MyConsoleApp.exe
+D:\Git\Test\MyConsoleApp\bin\Debug\net6.0\MyConsoleApp.deps.json
+D:\Git\Test\MyConsoleApp\bin\Debug\net6.0\MyConsoleApp.runtimeconfig.json
+D:\Git\Test\MyConsoleApp\bin\Debug\net6.0\MyConsoleApp.dll
+D:\Git\Test\MyConsoleApp\bin\Debug\net6.0\MyConsoleApp.pdb
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.csproj.AssemblyReference.cache
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.AssemblyInfoInputs.cache
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.AssemblyInfo.cs
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.csproj.CoreCompileInputs.cache
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.dll
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\refint\MyConsoleApp.dll
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.pdb
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\MyConsoleApp.genruntimeconfig.cache
+D:\Git\Test\MyConsoleApp\obj\Debug\net6.0\ref\MyConsoleApp.dll
