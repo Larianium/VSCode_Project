@@ -1,4 +1,6 @@
-﻿namespace MyConsoleApp;
+﻿using System.Collections;
+
+namespace MyConsoleApp;
 
 
 class Program
@@ -8,14 +10,33 @@ class Program
         //Console.WriteLine("Hello!");
         //Console.ReadLine();
         List<int> exList = new List<int>();
-        var exList_1 = new List<int>{1,2,3};
+        ArrayList myAL = new ArrayList();
+        LinkedList<int> myLL = new LinkedList<int>();
 
+        Console.WriteLine("List:");
         for(int i = 0; i <= 10; i++) //1000000
         {
-            exList.Add(i);
-            i++;
-            //Console.WriteLine(exList);
-            PrintList(exList);
+            exList.Add(i);          
+            Console.WriteLine(exList[i]);          
+        }
+
+        Console.WriteLine("ArrayList:");
+        for(int i = 0; i <= 10; i++) //1000000
+        {
+            myAL.Add(i);            
+            Console.WriteLine(myAL[i]);
+        }
+
+        Console.WriteLine("LinkedList:");
+        for(int i = 0; i <= 10; i++) //1000000
+        {
+            myLL.AddLast(i);  
+            //Console.WriteLine(myLL[i]);
+        }
+
+        foreach (int item in myLL)
+        {
+            Console.WriteLine(item);
         }
     }
 }
