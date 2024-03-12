@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 
 namespace MyConsoleApp;
 
@@ -28,14 +28,18 @@ class Program
         }
 
         Console.WriteLine("LinkedList:");
+        LinkedListNode<int> currentNode = myLL.First;
+        
         for(int i = 0; i <= 10; i++) //1000000
         {
             myLL.AddLast(i);  
+            Console.WriteLine(currentNode.Next);
+
         }
 
-        foreach (int item in myLL)
-        {
-            Console.WriteLine(item);
-        }
+        // foreach (int item in myLL)
+        // {
+        //     Console.WriteLine(item);
+        // }
     }
 }
