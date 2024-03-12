@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 
 namespace MyConsoleApp;
 
@@ -31,7 +31,6 @@ class Program
         for(int i = 0; i <= 10; i++) //1000000
         {
             myLL.AddLast(i);  
-            //Console.WriteLine(myLL[i]);
         }
 
         foreach (int item in myLL)
