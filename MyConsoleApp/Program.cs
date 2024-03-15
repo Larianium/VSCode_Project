@@ -15,7 +15,9 @@ class Program
         ArrayList       myAL = new ArrayList();
         LinkedList<int> myLL = new LinkedList<int>();
         Stopwatch       stopwatch = new Stopwatch(),
-                        stopwatchElement = new Stopwatch();
+                        stopwatchElementList = new Stopwatch(),
+                        stopwatchElementArrayList = new Stopwatch(),
+                        stopwatchElementLinkedList = new Stopwatch();
         int             elementList, 
                         searchElement = 496753;
 
@@ -29,10 +31,12 @@ class Program
         stopwatch.Stop();      
         Console.WriteLine("Прошедшее время заполнения в миллисекундах: {0}", stopwatch.ElapsedMilliseconds); 
         
-        stopwatchElement.Start();
+        //stopwatchElementList.Start();
+        stopwatchElementList.Start();
         elementList = exList[searchElement];
-        stopwatchElement.Stop();
-        Console.WriteLine("Прошедшее время поиска элемента в миллисекундах: {0}", stopwatchElement.ElapsedMilliseconds);
+        stopwatchElementList.Stop();
+        //stopwatchElementList.Stop();
+        Console.WriteLine("Прошедшее время поиска элемента в миллисекундах: {0}", stopwatchElementList.ElapsedMilliseconds);
 
         Console.WriteLine("ArrayList:");
         stopwatch.Start();
@@ -44,10 +48,12 @@ class Program
         stopwatch.Stop();
         Console.WriteLine("Прошедшее время заполнения в миллисекундах: {0}", stopwatch.ElapsedMilliseconds);    
 
-        stopwatchElement.Start();
+        //stopwatchElementArrayList.Start();
+        stopwatchElementList.Start();
         elementList = (int)myAL[searchElement];
-        stopwatchElement.Stop();
-        Console.WriteLine("Прошедшее время поиска элемента в миллисекундах: {0}", stopwatchElement.ElapsedMilliseconds);
+        //stopwatchElementArrayList.Stop();
+        stopwatchElementList.Stop();
+        Console.WriteLine("Прошедшее время поиска элемента в миллисекундах: {0}", stopwatchElementList.ElapsedMilliseconds);
 
         Console.WriteLine("LinkedList:");
         //LinkedListNode<int> currentNode = myLL.First;   
@@ -60,11 +66,13 @@ class Program
         stopwatch.Stop();
         Console.WriteLine("Прошедшее время заполнения в миллисекундах: {0}", stopwatch.ElapsedMilliseconds); 
 
-        stopwatchElement.Start();
+        //stopwatchElementLinkedList.Start();
+        stopwatchElementList.Start();
         //elementList = myLL.Select(searchElement);
         elementList = myLL.ElementAt(searchElement);
-        stopwatchElement.Stop();
-        Console.WriteLine("Прошедшее время поиска элемента в миллисекундах: {0}", stopwatchElement.ElapsedMilliseconds);
+        //stopwatchElementLinkedList.Stop();
+        stopwatchElementList.Stop();
+        Console.WriteLine("Прошедшее время поиска элемента в миллисекундах: {0}", stopwatchElementList.ElapsedMilliseconds);
 
         // foreach (int item in myLL)
         // {
