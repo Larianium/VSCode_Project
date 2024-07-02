@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleshkin\\My projects\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj": {}
+    "D:\\Git\\VSCode\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleshkin\\My projects\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj": {
+    "D:\\Git\\VSCode\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleshkin\\My projects\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj",
+        "projectUniqueName": "D:\\Git\\VSCode\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj",
         "projectName": "MyConsoleApp",
-        "projectPath": "C:\\Users\\aleshkin\\My projects\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\aleshkin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleshkin\\My projects\\VSCode_Project\\MyConsoleApp\\obj\\",
+        "projectPath": "D:\\Git\\VSCode\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Наталия\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\VSCode\\VSCode_Project\\MyConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aleshkin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Наталия\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
