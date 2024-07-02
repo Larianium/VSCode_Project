@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XRUVdK7rR7MxsSyz+ip51gNHj/kh5aVeEshPD8JUW1XdeWOkMfvAAweQDzIJlzyAEmbiAfnItXZqqkh37EzGHQ==",
+  "dgSpecHash": "PmzrrbJX5qtQJ6d68W1dDHMenCPBAPhsgebpbm3AEKvDUO29/6kmz8CwHu6acW0lfl9NHme9LvsyneA6rxIhMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\aleshkin\\My projects\\VSCode_Project\\MyConsoleApp\\MyConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\aleshkin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\aleshkin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\aleshkin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\aleshkin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
   "logs": []
 }
